@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    text-align: center;
+    background-image:linear-gradient(to right,rgba(164, 151, 173),rgb(204, 147, 181)) ;
+}
+
+#menu{
+    position: fixed;
+    background-color:bisque;
+    width:100%;
+    top:0px;
+    left:0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.links{
+    display: inline;
+    font-size: 30px;
+    padding-right: 30px;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*pseudo class
+syntax:
+selector:pseudo-class{
+    property::value;
+}
+*/
+
+a:hover{
+    font-size: 40px;
+    color:brown
+}
+
+a{
+    text-decoration: none;
+   
+}
+
+h1{
+    text-decoration: underline;
+}
+#taj{
+    position: sticky;
+    top: 60px;
+    background-color: beige;
+}
